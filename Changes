@@ -1,0 +1,9 @@
+Revision history for Perl extension Apache::DebugFilter.
+
+0.01 - Sun Jan  2 18:15:20 EST 2005
+
+- bring the module and tests up-to-date with mp-1.99_15
+
+- added the snoop filters
+
+- abstracted the bb_dump() function
