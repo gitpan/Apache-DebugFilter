@@ -5,7 +5,7 @@ use mod_perl 1.99;
 use strict;
 use warnings FATAL => 'all';
 
-$Apache::DebugFilter::VERSION = '0.01_01';
+$Apache::DebugFilter::VERSION = '0.01_02';
 
 use base qw(Apache::Filter);
 use Apache::FilterRec ();
@@ -89,7 +89,7 @@ __END__
 
 =head1 NAME
 
-Apache::DebugFilter - Get/Set/Unset Environment Variables on the C level
+Apache::DebugFilter - Debug mod_perl and native Apache2 filters
 
 =head1 Synopsis
 
@@ -117,6 +117,10 @@ Apache::DebugFilter - Get/Set/Unset Environment Variables on the C level
 
   # dump pretty formatted bb's content to a filehandle of your choice
   bb_dump($bb, \*STDERR);
+
+
+
+
 
 =head1 Filter Handlers
 
@@ -173,6 +177,9 @@ example:
       PerlOutputFilterHandler Apache::DebugFilter::snoop_request
   </Location>
 
+
+
+
 =head1 Functions
 
 =head2 C<bb_dump()>
@@ -195,11 +202,17 @@ as in:
 C<bb_dump> will print pretty formatted bb's content to that
 filehandle.
 
+
+
 =head1 Author
 
 Stas Bekman E<lt>stas@stason.orgE<gt>
 
 =head1 See Also
+
+http://perl.apache.org/docs/2.0/user/handlers/filters.html#All_in_One_Filter
+
+http://perl.apache.org/docs/2.0/
 
 L<perl>.
 

@@ -1,5 +1,5 @@
 NAME
-    Apache::DebugFilter - Get/Set/Unset Environment Variables on the C level
+    Apache::DebugFilter - Debug mod_perl and native Apache2 filters
 
 Synopsis
       # httpd.conf
@@ -99,5 +99,10 @@ Author
     Stas Bekman <stas@stason.org>
 
 See Also
+    http://perl.apache.org/docs/2.0/user/handlers/filters.html#All_in_One_Fi
+    lter
+
+    http://perl.apache.org/docs/2.0/
+
     perl.
 

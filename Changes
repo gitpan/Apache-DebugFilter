@@ -1,6 +1,10 @@
 Revision history for Perl extension Apache::DebugFilter.
 
-0.01 - Sun Jan  2 18:15:20 EST 2005
+0.01_02
+
+- fix the manpage's title
+
+0.01_01 - Sun Jan  2 18:15:20 EST 2005
 
 - bring the module and tests up-to-date with mp-1.99_15
 
